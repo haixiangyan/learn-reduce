@@ -1,0 +1,8 @@
+{
+  "name": "learn-reduce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Haixiang6123/learn-reduce.git",
+  "author": "Haixiang <haixiang6123@gmail.com>",
+  "license": "MIT"
+}
