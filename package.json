@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:Haixiang6123/learn-reduce.git",
   "author": "Haixiang <haixiang6123@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  }
 }
