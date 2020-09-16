@@ -1,4 +1,4 @@
-# 以前我没得选，现在只想用 Array.reduce
+> 代码仓库：[https://github.com/Haixiang6123/learn-reduce](https://github.com/Haixiang6123/learn-reduce)
 
 ## 前言
 
@@ -36,7 +36,11 @@ reduce 所提供的功能就是这个加号，至于这怎么个加法，是由�
 
 ![](https://upload-images.jianshu.io/upload_images/2979799-244ac1c985fddfdb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-已有的蛇身就是 prev 参数，要吃掉的豆子就是 curt。
+```
+🐍 (prev) + 💩(curt) + 💩 (curt) + 💩(curt) = 🛫 (return value)
+```
+
+已有的蛇身就是 prev 参数，要吃掉的豆子就是 curt，吃完豆子的状态就是回调函数的返回值，整个 reduce 函数返回值就是这条🐍死了之后的状态。
 
 ## 应用场景
 
